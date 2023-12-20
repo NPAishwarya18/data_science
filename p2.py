@@ -15,5 +15,17 @@ print("Minimum value of array a:",np.min(a))
 print("Maximum value of array b:",np.max(b))
 print("Mean value of array a:",np.mean(a))
 print("SD value of array b:",np.std(b))
+c=np.array([[1,2],[3,4],[5,6]])
+print("array c:")
+print(c)
+print("Reshaped array c(2 rows,3 columns):")
+print(np.reshape(c,(2,3)))
+
+d=np.array([[1,2,3],[4,5,6]])
+print("array d:")
+print(d)
+print("Transposed array d:")
+print(np.transpose(d))
+
 
 
